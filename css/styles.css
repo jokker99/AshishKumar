@@ -1,0 +1,100 @@
+h1,h2,h3,h4,h5,h6,p {
+    color: #fff;
+}
+
+.dark {
+    background-color: #000 !important;
+}
+
+.bg-dark{
+    background-color: #0e0d0d !important;
+}
+
+.light{
+    background-color: #F0FFFF;
+    color: black;
+}
+
+.home-img{
+    margin-top: 90px;
+    
+}
+
+.portfolio {
+    height: auto !important;
+}
+
+
+.aimg:hover img{
+    opacity: 0.3;
+}
+
+.text-warning:hover {
+    color: chartreuse !important;
+}
+
+#effect:hover {
+    background-color: rgb(8, 8, 8);
+}
+
+
+.image{
+    height: 70vh !important;
+    margin-left: 80px;
+}
+
+.img-thumbnail{
+    height: 30vh !important;
+    width: 23vw !important;
+}
+
+.footer-bottom {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+.copyright {
+    float: left;
+}
+
+.credits {
+    float: right;
+    font-size: 16px;
+}
+
+.credits a {
+    transition: 0.3s;
+}
+
+
+
+@media(max-width: 768px) {
+    .img-thumbnail{
+        height: 30vh !important;
+        width: 100vw !important;
+    }
+
+    div#lightbulb {order: 1;}
+    div#brain {order: 2;}
+    div#cogs {order: 3;}
+    div#globe {order: 4;}
+    div#code {order: 5;}
+    div#cloud {order: 6;}
+}
+
+@media(max-width: 1000px) {
+    
+    div#lightbulb {
+        order: 1;
+        height: 30vh;
+        width: 100%;
+    }
+    div#brain {order: 2;}
+    div#cogs {order: 3;}
+    div#globe {order: 4;}
+    div#code {order: 5;}
+    div#cloud {order: 6;}
+
+}
+
